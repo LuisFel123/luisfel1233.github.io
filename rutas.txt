@@ -1,0 +1,5 @@
+En una ruta absoluta para encontrar un archivo se tiene que tomar desde la carpeta raiz para seleccionarlo. 
+a ocupar. Ejemplo: /exdi/styles/styles.css
+
+En una ruta relativa es en la cuál podemos dirigirnos al archivo desde la carpeta en la que nos encotramos. 
+Ejemplo: styles/styles.css

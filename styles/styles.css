@@ -1,0 +1,69 @@
+/*
+En una ruta absoluta para encontrar un archivo se tiene que tomar desde la carpeta raiz para seleccionarlo. 
+a ocupar. Ejemplo: /exdi/styles/styles.css
+
+En una ruta relativa es en la cuál podemos dirigirnos al archivo desde la carpeta en la que nos encotramos. 
+Ejemplo: styles/styles.css
+*/
+
+body {
+    background: linear-gradient(to bottom, #ff6b6b, #5d26b5);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.contenedor {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    width: 40%;
+    height: 70vh;
+    border: 20px solid #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.prese {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.gusto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.cOla {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+
+.ola {
+    stroke: none;
+    fill: rgb(255, 255, 255);
+}
